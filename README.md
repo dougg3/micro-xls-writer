@@ -36,12 +36,12 @@ See the included test.c program for an example usage of the library. To compile 
 
 ## License
 
-MicroXLSWriter is licensed under a 2-clause BSD license. See the header at the top of each source file for details.
+MicroXLSWriter is licensed under a 2-clause BSD license. See the LICENSE file or the header at the top of each source file for details.
 
 I'd definitely love to hear from you if you use this library in your project. This is not required by the license, but I think it will be interesting to hear about what types of projects this code ends up being used in. If you feel like it, contact me (see below).
 
 ## Contact
 
-If you have any questions or comments, feel free to contact me. I very much appreciate pull requests and bug reports. My contact details are on my website:
+If you have any questions or comments, feel free to contact me. I very much appreciate pull requests and bug reports. My contact details are on my [GitHub profile page](https://github.com/dougg3/) or on my website:
 
 https://www.downtowndougbrown.com/
