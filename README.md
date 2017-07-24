@@ -1,6 +1,6 @@
 # MicroXLSWriter
 
-A simple and small XLS file creation library suitable for use on microcontrollers.
+A simple and small XLS file creation library written in C suitable for use on microcontrollers.
 
 ## Introduction
 
