@@ -19,7 +19,7 @@ See the included test.c program for an example usage of the library. To compile 
 3. Create a function that MicroXLSWriter can call when it needs to write to a file. This function is the "glue code" that allows MicroXLSWriter to use your project's file I/O library. See `WriteToFile` in test.c for an example that uses stdio on a desktop computer.
 4. Set up a `MicroXLSWriter` struct that points to this function (the `writeFunc` member). You will pass this struct to all of the `MicroXLS_*` functions.
 5. Call `MicroXLS_Begin()` to start the spreadsheet.
-6. Set up any column widths with `MicroXLS_SetColumnWidth()`. To more closely match the BIFF2 requirements, do this prior to adding any cells.
+6. Optionally set up any custom column widths with `MicroXLS_SetColumnWidth()`. To more closely match the BIFF2 requirements, do this prior to adding any cells.
 7. Add cells with `MicroXLS_Add*` functions.
 8. Finish the spreadsheet by calling `MicroXLS_Finish()`. Don't forget this step! Excel won't open the file properly without it.
 9. Close the output file. You're done!
