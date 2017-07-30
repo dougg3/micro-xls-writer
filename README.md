@@ -34,6 +34,24 @@ See the included test.c program for an example usage of the library. To compile 
 - Many other .xls manipulation libraries are probably incompatible as well.
   - If file compatibility with other .xls libraries is important, you may need to look for a more complicated library that can generate a modern .xls file using BIFF8 and CFB.
 
+## Compatibility
+
+I tested a couple of files generated with this library by opening them in multiple versions of Excel. Here are the results:
+
+- Excel 2.0: Compatible
+- Excel 3.0: Compatible
+- Excel 4.0a: Compatible
+- Excel 5.0c: Compatible
+- Excel 95: Compatible
+- Excel 97: Compatible
+- Excel 2000: Compatible
+- Excel 2002: Compatible
+- Excel 2003: Compatible
+- Excel 2007: Compatible
+- Excel 2010: Compatible, opens in Protected View with no editing allowed
+- Excel 2013: *Not tested yet, will be tested soon.*
+- Excel 2016: Compatible, opens in Protected View with no editing allowed
+
 ## License
 
 MicroXLSWriter is licensed under a 2-clause BSD license. See the LICENSE file or the header at the top of each source file for details.
