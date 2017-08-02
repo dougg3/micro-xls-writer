@@ -49,7 +49,7 @@ I tested a couple of files generated with this library by opening them in multip
 - Excel 2003: Compatible
 - Excel 2007: Compatible
 - Excel 2010: Compatible, opens in Protected View with no editing allowed
-- Excel 2013: *Not tested yet, will be tested soon.*
+- Excel 2013: Compatible, opens in Protected View with no editing allowed
 - Excel 2016: Compatible, opens in Protected View with no editing allowed
 
 ## License
